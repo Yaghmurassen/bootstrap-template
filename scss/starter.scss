@@ -68,7 +68,7 @@ $body-bg: #f5f5f5;
 @import "bootstrap/scss/modal"; // Requires transitions
 // @import "bootstrap/scss/tooltip";
 // @import "bootstrap/scss/popover";
-// @import "bootstrap/scss/carousel";
+@import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 // @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
@@ -210,5 +210,26 @@ p {
         margin: 25px auto;
       }
     }
+  }
+}
+
+.carousel-indicators {
+  .active {
+    background: #212024;
+  }
+  li {
+    width: 13px;
+    height: 13px;
+    display: block;
+    background: #5c696a;
+    background: #fff;
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    border: 3px solid #c9cbca;
+    cursor: pointer;
   }
 }
