@@ -97,6 +97,11 @@ p {
   letter-spacing: 1px;
 }
 
+.row {
+  margin-right: unset;
+  margin-left: unset;
+}
+
 .text-center {
   text-align: center;
 }
@@ -148,7 +153,7 @@ p {
   text-align: center;
 }
 
-.section-creative {
+#section-creative {
   text-align: center;
   background: #f3f5f8;
   padding: 90px 0 100px;
@@ -174,7 +179,7 @@ p {
   padding-bottom: 30px;
 }
 
-.section-skills {
+#section-skills {
   padding: 90px 0 100px;
   .container {
     & .row:nth-child(2) {
@@ -231,5 +236,139 @@ p {
     border-radius: 20px;
     border: 3px solid #c9cbca;
     cursor: pointer;
+  }
+}
+
+#section-pro {
+  .row {
+    height: 650px;
+    .col-md-6:last-child {
+      margin: auto;
+    }
+    .carousel-inner {
+      padding: 0 15%;
+    }
+  }
+}
+
+.iphone {
+  width: 50%;
+  background: #f3f5f8;
+  float: left;
+  height: 100%;
+  box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding: unset;
+  div {
+    background: url(/assets/img/iphone-bg.png) no-repeat center center;
+    background-position: 8px 20px;
+    height: 100%;
+  }
+}
+
+.swag {
+  background: url(../img/plants-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0;
+  h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  span {
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgba(61, 201, 179, 0.8);
+    display: inline-block;
+    margin: 10px auto 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 70vh;
+  margin: auto;
+}
+
+// .grid-portfolio {
+//   display: grid;
+// }
+
+// .carousel-item {
+//   display: grid !important;
+//   grid-template-columns: repeat(3, 1fr);
+//   grid-gap: 1rem;
+//   margin-top: 30px;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+#carouselPortfolio {
+  padding: 70px 0 40px 0;
+  h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+}
+
+.portfolio-container h2::after {
+  content: " ";
+  border: solid 2px #3dc9b3;
+  width: 35px;
+  display: block;
+  margin: 25px auto;
+}
+
+.ignite-cta {
+  background-color: #242830;
+  padding: 70px 0;
+}
+
+.ignite-btn {
+  display: inline-block;
+  padding: 25px 40px;
+  color: #fff;
+  border: solid 1px #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  #section-pro .row .col-md-6:last-child {
+    transform: translateY(-150%);
+    z-index: 999;
+    background-color: #f6f6f8a8;
+  }
+  .carousel-item p {
+    color: black;
+  }
+  .title-arrow {
+    padding-top: 30px;
+  }
+  .iphone {
+    width: 100%;
   }
 }

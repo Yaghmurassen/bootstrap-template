@@ -18,17 +18,19 @@
     <header>
       <nav></nav>
       <section class="bckg-home row">
-        <div class="col-sm-6 title-home">
+        <div class="col-8 title-home">
           <h1>HALCYON<span>DAYS</span></h1>
           <p class="">An exclusive HTML5/CSS3 freebie for <em>Codrops</em></p>
 
-          <a type="button" class="btn" href="#"> Back to the article </a>
+          <a type="button" class="btn" href="#section-creative">
+            Back to the article
+          </a>
         </div>
       </section>
     </header>
 
     <main>
-      <section class="section-creative">
+      <section id="section-creative">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
@@ -48,7 +50,7 @@
         </div>
       </section>
 
-      <section class="section-skills">
+      <section id="section-skills">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -98,90 +100,237 @@
         </div>
       </section>
 
-      <section class="section-pro">
+      <section id="section-pro">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 iphone">
+            <div></div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div
+              id="carouselProResponsive"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselProResponsive"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carouselProResponsive" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                  <h2 class="title-arrow">Bootstrap Professionals</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc ultricies nulla non metus pulvinar imperdiet. Praesent
+                    non adipiscing libero.
+                  </p>
+                  <p>
+                    Mauris ultrices odio vitae nulla ultrices iaculis. Nulla
+                    rhoncus odio eu lectus faucibus facilisis. Maecenas ornare
+                    augue vitae sollicitudin accumsan.
+                  </p>
+                  <p>
+                    Etiam eget libero et erat eleifend consectetur a nec lectus.
+                    Sed id tellus lorem. Suspendisse sed venenatis odio, quis
+                    lobortis eros.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <h2 class="title-arrow">Responsive Design Specialists</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc ultricies nulla non metus pulvinar imperdiet. Praesent
+                    non adipiscing libero.
+                  </p>
+                  <p>
+                    Mauris ultrices odio vitae nulla ultrices iaculis. Nulla
+                    rhoncus odio eu lectus faucibus facilisis. Maecenas ornare
+                    augue vitae sollicitudin accumsan.
+                  </p>
+                  <p>
+                    Etiam eget libero et erat eleifend consectetur a nec lectus.
+                    Sed id tellus lorem. Suspendisse sed venenatis odio, quis
+                    lobortis eros.
+                  </p>
+                </div>
+              </div>
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="swag text-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                </ol>
-                <div class="carousel-inner text-center">
-                  <div class="carousel-item active">
-                    <h2 class="title-arrow">Bootstrap Professionals</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc ultricies nulla non metus pulvinar imperdiet.
-                      Praesent non adipiscing libero.
-                    </p>
-                    <p>
-                      Mauris ultrices odio vitae nulla ultrices iaculis. Nulla
-                      rhoncus odio eu lectus faucibus facilisis. Maecenas ornare
-                      augue vitae sollicitudin accumsan.
-                    </p>
-                    <p>
-                      Etiam eget libero et erat eleifend consectetur a nec
-                      lectus. Sed id tellus lorem. Suspendisse sed venenatis
-                      odio, quis lobortis eros.
-                    </p>
-                  </div>
-                  <div class="carousel-item">
-                    <h2 class="title-arrow">Responsive Design Specialists</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc ultricies nulla non metus pulvinar imperdiet.
-                      Praesent non adipiscing libero.
-                    </p>
-                    <p>
-                      Mauris ultrices odio vitae nulla ultrices iaculis. Nulla
-                      rhoncus odio eu lectus faucibus facilisis. Maecenas ornare
-                      augue vitae sollicitudin accumsan.
-                    </p>
-                    <p>
-                      Etiam eget libero et erat eleifend consectetur a nec
-                      lectus. Sed id tellus lorem. Suspendisse sed venenatis
-                      odio, quis lobortis eros.
-                    </p>
+            <div class="col-md-8 col-md-offset-2 grid">
+              <h1>
+                I got 99 Problems<span>but <em>design</em> 'aint one</span>
+              </h1>
+              <a href="#portfolio" class="down-arrow-btn"
+                ><i class="fa fa-chevron-down"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio text-center section-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div
+              id="carouselPortfolio"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselPortfolio"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carouselPortfolio" data-slide-to="1"></li>
+                <li data-target="#carouselPortfolio" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-01.jpg"
+                        alt="creative mind img"
+                      />
+                      <h2>Creative Ideas</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-02.jpg"
+                        alt="Desk with a macbook, coffe and book"
+                      />
+                      <h2>Responsive Design Specialists</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-03.jpg"
+                        alt="Desk with a macbook, coffe and book"
+                      />
+                      <h2>Responsive Design Specialists</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <!-- <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="next"
-                > -->
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <!-- <span class="sr-only">Next</span> -->
-                </a>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-01.jpg"
+                        alt="creative mind img"
+                      />
+                      <h2>Creative Ideas</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-02.jpg"
+                        alt="Desk with a macbook, coffe and book"
+                      />
+                      <h2>Responsive Design Specialists</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-03.jpg"
+                        alt="Desk with a macbook, coffe and book"
+                      />
+                      <h2>Responsive Design Specialists</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-01.jpg"
+                        alt="creative mind img"
+                      />
+                      <h2>Creative Ideas</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-02.jpg"
+                        alt="Desk with a macbook, coffe and book"
+                      />
+                      <h2>Responsive Design Specialists</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-4 portfolio-container">
+                      <img
+                        src="/assets/img/portfolio-03.jpg"
+                        alt="Desk with a macbook, coffe and book"
+                      />
+                      <h2>Responsive Design Specialists</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nunc ultricies nulla non metus pulvinar imperdiet.
+                        Praesent non adipiscing libero.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ignite-cta text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#" class="ignite-btn">Ignite Your Passion</a>
             </div>
           </div>
         </div>
